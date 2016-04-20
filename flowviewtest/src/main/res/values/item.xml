@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_ch">
+        <item>Java</item>
+        <item>PHP</item>
+        <item>JavaScript</item>
+        <item>C</item>
+        <item>Python</item>
+        <item>Android</item>
+        <item>C++</item>
+        <item>Swift</item>
+        <item>Object C</item>
+        <item>Ruby</item>
+        <item>ActionScript</item>
+    </string-array>
+</resources>

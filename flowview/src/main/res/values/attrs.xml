@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowView">
+        <attr name="layout_lineSpacing" format="dimension" /><!-- 行间距 -->
+        <attr name="layout_itemSpacing" format="dimension" /><!-- Item间距 -->
+    </declare-styleable>
+</resources>
