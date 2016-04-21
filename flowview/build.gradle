@@ -22,4 +22,32 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.1'
+
 }
+
+ext{
+    bintrayRepo = 'maven'
+    bintrayName = 'flowview'
+
+    publishedGroupId = "ws.dyt.view"
+    libraryName = 'FlowView'
+    artifact = 'flowview'
+
+    libraryDescription = "A FlowView on Android"
+    siteUrl = "https://github.com/yangxiaoweihn/FlowView"
+    gitUrl = "https://github.com/yangxiaoweihn/FlowView.git"
+
+    libraryVersion = "${android.defaultConfig.versionName}"
+    developerId = 'yangxiaoweihn'
+    developerName = 'yangxiaowei'
+    developerEmail = 'hn_yangxiaowei@163.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+}
+
+apply from: 'https://raw.githubusercontent.com/yangxiaoweihn/FlowView/flowview/master/bintray.gradle'
+apply from: 'https://raw.githubusercontent.com/yangxiaoweihn/FlowView/flowview/master/install.gradle'
+
