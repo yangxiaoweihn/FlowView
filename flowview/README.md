@@ -5,7 +5,7 @@
     compile 'ws.dyt.view:flowview:1.0'
 ```
 ## 屏幕截图
-![StepView](https://raw.githubusercontent.com/yangxiaoweihn/FlowView/master/flowviewtest/screenshots/img.png)
+![FlowView](https://raw.githubusercontent.com/yangxiaoweihn/FlowView/flow-view/flowviewtest/screenshots/img.png)
     
 ## 使用
 -   在布局中文件使用
