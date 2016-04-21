@@ -48,6 +48,6 @@ ext{
 
 }
 
-apply from: 'https://raw.githubusercontent.com/yangxiaoweihn/FlowView/flow-view/flowview/bintray.gradle'
-apply from: 'https://raw.githubusercontent.com/yangxiaoweihn/FlowView/flow-view/flowview/install.gradle'
+apply from: 'https://raw.githubusercontent.com/yangxiaoweihn/FlowView/flow-view/bintray.gradle'
+apply from: 'https://raw.githubusercontent.com/yangxiaoweihn/FlowView/flow-view/install.gradle'
 
